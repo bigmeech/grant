@@ -8,6 +8,10 @@ exports.koa = () => {
   return require('./lib/consumer/koa' + (version < 2 ? '' : '2'))
 }
 
+exports.fastify = () => {
+  return require('./lib/consumer/fastify')
+}
+
 exports.hapi = () => {
   var pkg
   try {

@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "protocol": "http",
+    "host": "localhost:3000"
+  },
+  "google": {
+    "key": "APP_ID",
+    "secret": "APP_SECRET",
+    "callback": "/hello"
+  }
+}

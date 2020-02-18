@@ -1,0 +1,23 @@
+{
+  "name": "grant-examples",
+  "version": "0.0.0",
+  "description": "Grant Examples",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/simov/grant",
+  "author": "Larry Eliemenye",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simov/grant.git"
+  },
+  "dependencies": {
+    "fastify": "^4.16.3",
+    "express-session": "^1.15.6",
+    "grant-express": "^4.4.0"
+  },
+  "main": "app.js",
+  "bugs": {
+    "url": "https://github.com/simov/grant/issues"
+  },
+  "keywords": []
+}
